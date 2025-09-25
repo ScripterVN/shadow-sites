@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shadow — Main Generator (clone)</title>
+  <meta name="description" content="Landing / generator UI inspired by voidex-bemz.vercel.app" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-logo" aria-hidden>
+    <svg viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+      <defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#7b61ff"/><stop offset="1" stop-color="#00e0ff"/></linearGradient></defs>
+      <text x="20" y="220" font-size="220" font-weight="800" fill="url(#g)">SHADOW</text>
+    </svg>
+  </div>
+
+  <main class="wrap">
+    <header>
+      <div class="logo">S H A D O W</div>
+      <div class="cta"><a href="https://dsc.gg/shadow-site" role="button">Join Discord</a></div>
+    </header>
+
+    <section class="card hero" role="region" aria-label="Main generator">
+      <div>
+        <h1>MAIN GENERATOR</h1>
+        <p>Quick access to the most used tools. This is the best Beaming Website #SHADOW no. 1</p>
+
+        <div class="buttons" role="toolbar" aria-label="generator actions">
+          <a class="btn primary" href="generator.html" target="blank">Generator</a>
+          <a class="btn primary" href="bypasser.html" target="blank">Bypasser</a>
+        </div>
+
+        <p class="notice">If the Sites are down or Flagged be Patient as we are aware of this and working on fixing it asap</p>
+
+        <div style="margin-top:18px" class="card">
+          <h3 style="margin:0 0 8px 0">Tutorial</h3>
+          <p style="margin:0 0 12px 0; color:var(--muted)">Watch the short tutorial to learn how to use the tools and workflow.</p>
+          <a class="btn ghost" href="https://youtu.be/2mzsKeArjFE?si=69yK6AQofDgQ6rXl" target="_blank">Watch Tutorial</a>
+        </div>
+      </div>
+
+      <aside class="panel-right">
+        <div class="card center">
+          <div style="flex:1">
+            <strong>Built with</strong>
+            <div style="font-size:12px;color:var(--muted)">SHADOW DEVELOPER</div>
+          </div>
+        </div>
+
+         <div class="card menu" role="navigation">
+          <a>DEVELOPER: Dex!</a>
+          <a>OWNER: <br>Dex!</br></a>
+          <a>ADMINS: <br>UNKNOWN</br></a
+        </div>
+
+      </aside>
+    </section>
+
+    <footer>
+      <div>© <span id="year"></span> Shadow — Main Generator</div>
+      <div><a href="https://example.com/tutorial" style="color:var(--muted); text-decoration: none" target="_blank">Watch Tutorial</a></div>
+    </footer>
+  </main>
+
+  <script>
+    // year auto update
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
